@@ -48,7 +48,7 @@ function decrypt(pwd) {
 	prand = (mult * prand + incr) % modu;
 	}
 	if(!enc_str.match(/\.html/g)){
-		alert("비밀번호가 일치하지 않습니다");
+		alert("틀렸어...잘 생각해봐");
 	}
 	else {
 		window.location.href=enc_str;
