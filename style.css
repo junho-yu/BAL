@@ -140,10 +140,10 @@ font-family: 'Noto Sans KR', sans-serif;
 }
 
 .aside {
-    flex-basis: 400px;
+    flex-basis: 200px;
     margin-top: 40px;
     margin-right: 100px;
-    flex-grow: 1;
+        flex-grow: 1;
     text-align: left;
     
     
@@ -283,3 +283,4 @@ header{
   width: 200px;
   border: 5px solid black;
   cursor: pointer;
+}
