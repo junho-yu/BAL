@@ -190,7 +190,7 @@ header{
     color: white;
 }
 
-@media screen and (min-width: 625px) {
+/* @media screen and (min-width: 625px) {
 
     #menu {
         display: flex;
@@ -240,7 +240,7 @@ header{
     .fas {
         font-size: 2em;
     }
-}
+} */
 .thumb {
     position:relative; 
     width:25%; 
