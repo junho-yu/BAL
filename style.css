@@ -302,10 +302,3 @@ header{
     text-align:center !important;
     display: block !important;
 }
-.root_daum_roughmap {
-    margin: auto !important;
-    z-index: -10;
-}
-.root_daum_roughmap root_daum_roughmap_landing {
-    z-index: -10;
-}
