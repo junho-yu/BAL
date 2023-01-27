@@ -68,15 +68,39 @@
                       ">
     </div>
     <hr>
+    <br>
+<div style="text-align:center";>
+                <!-- * 카카오맵 - 지도퍼가기 -->
+<!-- 1. 지도 노드 -->
+<div id="daumRoughmapContainer1674784410212" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+<br>
+강원 동해시 석두골길 9-10 (우)25701
+지번망상동 418-6 <br>
+<a href="https://map.naver.com/v5/entry/place/38643537?placePath=%2Fhome&entry=plt">네이버에서 보고싶으면 클릭 ㄱ</a>
+</div>
+<br>
+<div id="kamap">
+<img src="2023W.jpg" width="1000px" height="auto">
+</div>
+<!--
+	2. 설치 스크립트
+	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+-->
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
 
-    <div class="Bflex">
+<!-- 3. 실행 스크립트 -->
+<script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1674784410212",
+		"key" : "2dj4a",
+		"mapWidth" : "800",
+		"mapHeight" : "400"
+	}).render();
+</script>
+        
 
-        <div class="bon">
-            <h1>환영한다이기</h1>
-        </div>
 
-
-    </div>
+    
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
