@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Form</title>
+	<style>
+		body {
+			font-family: "Arial", sans-serif; /* add font-family */
+			background-color: #f2f2f2;
+			
+  margin: 0;
+  padding: 0;
+		}
+		
+		h1 {
+			color: #333;
+			text-align: center;
+		}
+		form {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 50px 100px; /* Add more top/bottom padding */
+	background-color: #255a6f;
+	border: 1px solid #020202;
+	border-radius: 10px;
+	box-shadow: 1px 1px 3px #999;
+	color: #fff;
+}
+		
+label {
+	font-size: large;
+    display: block;
+	font-weight: bold;
+	margin-top: 10px;
+	color: FFF;
+	width: 30%;
+	float: left; /* Added property */
+	clear: left; /* Added property */
+	padding-right: 10px;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+
+input[type="text"],
+input[type="tel"],
+textarea {
+    display: inline-block;
+	width: 68%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+	background-color: #fff;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+
+		input[type="submit"] {
+			background-color: #f195a6;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	width: 100%; /* increase width to 100% */
+	margin-top: 20px;
+	font-size: 1.2em;
+	font-weight: bold;
+	transition: all 0.2s ease-in-out;
+	display: inline-block;
+	text-align: center; /* center the button */
+	font-family: "Arial", sans-serif; /* add font-family */
+		}
+		input[type="submit"]:hover {
+			background-color: #e97e92;
+		}
+	</style>
+</head>
+<body>
+	<div style="text-align: center;">
+<img src="1.jpg" style="width: 1200px; max-width: 100%;">
+</div>
+
+
+	<h1>정수기 렌탈료 가격비교</h1>
+	<form method="post" action="process_form.php">
+		
+		<label for="name">이름</label>
+		<input type="text" id="name" name="name" placeholder="예시) 홍길동"><br><br>
+
+		<label for="cell_number">휴대폰</label>
+		<input type="tel" id="cell_number" name="cell_number" placeholder="예시) 010-1234-5678"><br><br>
+
+		<label for="note">상담요청내용</label>
+		<textarea id="note" name="note"  placeholder="예시) 코웨이 얼음정수기 비교 상담요청"></textarea><br><br>
+
+		<input type="submit" value="비교요청하기">
+	</form>
+</body>
+</html>
